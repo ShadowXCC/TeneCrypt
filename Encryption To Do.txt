@@ -1,0 +1,46 @@
+Remove the Mains:
+- Pass in Bullshit (if I even have to)
+- Return Bullshit
+- Bullshit is just randomness
+
+Bullshit Cleaning:
+- Change bullshit into some form of token to validate the process
+
+HasRun Function
+- A file that checks if the program has been run before, and if it has, it will not run set up
+- Looks for both a specific file and all of the other setup files, to see if the program has been run before
+- This is now necessary, just a little more efficient
+
+Password Files
+- Set minimal limits on custom passwords
+- Encrypt/Obfuscate password stored in file, using custom algorithm
+- One way hashing function, with a randomly decided function (compare the stored hashed value to the input password hashed at that moment)
+- Salt the hash(when first hashed, input random characters every other character H#I#), just read every other character to authorize(eventually replace the salting method)
++ Apply whatever I do here to the CD Key Stuff as well
+
+AllKey
+- Maybe use DHKE?
+
+Algorithm
+- Get classes that need the key from key reader to read the file created by keyreader.class
+- Possibly implement whole time values, month/day/hour/minute/second(all skewed(no logical ordering or logical skew))
+- Build onto base.class and make a new class to turn the program into a proper/custom encryption in public, asymmetric key
+- Secret number is based off of relationship between the angles the minute and hour hand make on a clock, with a defined 0/start value
+  (any position on the clock to make it harder) 
+
+Big Overall Tasks:
+- Increase supported characters for all files (SBO, PasswordCreator)
+- Think about group messages
+- Create character libraries/databases, so that I just need to import a specific library/database based off of each language
+- Figure out and fix Base.Class when 2 things are to be encrypted
+- Completely separate Setup from Worker (do away with MMAR)
+
+Tasks to do before completion
+- Search for errors in the program and fix them
+- Change file paths to put the files into a place (based on OS?, detect viable places?, prompt for place?) rather than just in the place that the .jar is
+- Check if all files are being created
+- Make sure all features are implemented
+
+Final Things:
+- Make a second project, and minimize(remove all non-needed characters) all the code (This is the production version)
+- Make sure all non-crucial classes and etc. are deleted/temporarily removed from final project

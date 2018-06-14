@@ -1,0 +1,16 @@
+http://stackoverflow.com/questions/1294989/make-a-file-folder-hidden-on-windows-with-java
+http://docs.oracle.com/javase/tutorial/essential/io/fileAttr.html
+https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html#setAttribute-java.nio.file.Path-java.lang.String-java.lang.Object-java.nio.file.LinkOption...-
+https://www.bouncycastle.org/java.html
+https://www.tutorialspoint.com/java/io/file_getname.htm
+http://stackoverflow.com/questions/17851478/reading-a-particular-line-from-a-text-file-in-java
+http://stackoverflow.com/questions/2312756/how-to-read-a-specific-line-using-the-specific-line-number-from-a-file-in-java
+http://stackoverflow.com/questions/20864211/how-to-get-a-variable-from-another-class-in-java
+http://stackoverflow.com/questions/15624226/java-search-for-files-in-a-directory
+http://stackoverflow.com/questions/13991494/resetting-a-nextline-scanner
+http://stackoverflow.com/questions/3852910/what-is-the-java-nosuchelementexception-error
+http://docs.oracle.com/javase/6/docs/api/java/security/SecureRandom.html
+
+https://zeroturnaround.com/rebellabs/the-legal-basics-of-software-licensing-or-my-app-is-done-now-what/
+https://en.wikipedia.org/wiki/Software_license
+http://www.wikihow.com/Make-an-Installation-File

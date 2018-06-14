@@ -1,0 +1,8 @@
+GUI
+- Original Setup Page (no percentage bar) using if statements to refer to the percentage being displayed (probably going to need to be in a loop till final value is 100%)
+- Original Place in Which Password is given/told
+- Landing Password Checker
+- Main Menu(both Worker.class and MainMenuAlreadyRunning.class should have identical layouts, just the slight modification is behind the scenes)
+  ID Check screen, followed by the encryption class
+- OR (based off of choice)
+  AllKey
