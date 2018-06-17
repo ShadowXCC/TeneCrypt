@@ -9,7 +9,7 @@ public class PPKeyCreator {
 	PPKeyCreator(){	}
 	public static String Activate() throws IOException{
 		//Public
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		Scanner FileGuts2 = new Scanner(FF);
@@ -21,9 +21,11 @@ public class PPKeyCreator {
 		for(int LineCount = 0;!(WantedLineCount == LineCount);LineCount++){
 			PublicFileName = FileGuts.nextLine() + ".shde";
 		}
+		PublicFileName = "Data\\" + PublicFileName;
 		for(int LineCount1 = 0;!(WantedLineCount1 == LineCount1);LineCount1++){
 			PrivateFileName = FileGuts2.nextLine() + ".shde";
 		}
+		PrivateFileName = "Data\\" + PrivateFileName;
 		
 		int PubLength = 128;
 		SecureRandom Generator = new SecureRandom();

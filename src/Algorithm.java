@@ -24,7 +24,7 @@ public class Algorithm {
 		Calendar cal = Calendar.getInstance();
 		int RandomNumber = generator.nextInt(2) + 1;
 		
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		String WorkspaceFileName = null;
@@ -32,6 +32,7 @@ public class Algorithm {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			WorkspaceFileName = FileGuts.nextLine();
 		}
+		WorkspaceFileName = "Temp\\" + WorkspaceFileName;
 		File WorkspaceFile = new File(WorkspaceFileName + ".shde");
 		@SuppressWarnings("resource")
 		FileWriter fw = new FileWriter(WorkspaceFileName);
@@ -116,8 +117,8 @@ public class Algorithm {
 		String colon = ":";
 		String semicolon  = ";";
 		String dollarSign = "$";
-		String euroSign = "Û";
-		String poundSign = "£";
+		String euroSign = "ï¿½";
+		String poundSign = "ï¿½";
 		String at = "@";
 		String ampersand = "&";
 		String slash = "/";

@@ -9,6 +9,7 @@ public class ConfigMaker {
 	public static String Activate() throws IOException{
 		SecureRandom G = new SecureRandom();
 		String FileName = "Config.shde";
+		FileName = "Data\\" + FileName;
 		
 		int NumOfFiles = 7;
 		int NameLength = 75;

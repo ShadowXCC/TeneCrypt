@@ -8,7 +8,7 @@ public class CDKeyCheck {
 	CDKeyCheck(){	}
 	public static String Activate() throws IOException{
 		String cdKey = "643-480-695";
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		
@@ -17,6 +17,7 @@ public class CDKeyCheck {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			fileName = FileGuts.nextLine() + ".shde";
 		}
+		fileName = "Data\\" + fileName;
 		
 		boolean DoesItExist = new File(fileName).isFile();
 		if(DoesItExist == false){

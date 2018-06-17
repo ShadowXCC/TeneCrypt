@@ -21,7 +21,7 @@ public class Base {
 		Calendar cal = Calendar.getInstance();
 		int RandomNumber = generator.nextInt(2) + 1;
 		
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		String WorkspaceFileName = null;
@@ -29,6 +29,7 @@ public class Base {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			WorkspaceFileName = FileGuts.nextLine() + ".shde";
 		}
+		WorkspaceFileName = "Temp\\" + WorkspaceFileName;
 		File WorkspaceFile = new File(WorkspaceFileName);
 		FileWriter fw = new FileWriter(WorkspaceFileName);
 		String EKey = "E";
@@ -112,8 +113,8 @@ public class Base {
 		String colon = ":";
 		String semicolon  = ";";
 		String dollarSign = "$";
-		String euroSign = "€";
-		String poundSign = "£";
+		String euroSign = "ï¿½";
+		String poundSign = "ï¿½";
 		String at = "@";
 		String ampersand = "&";
 		String slash = "/";

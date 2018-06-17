@@ -8,7 +8,7 @@ public class AddKey {
 	AddKey(){	}
 	
 	public static String Activate() throws IOException{
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
@@ -19,6 +19,7 @@ public class AddKey {
 		for(int LineCount1 = 0;!(WantedLineCount1 == LineCount1);LineCount1++){
 			FilePath1 = FileGuts2.nextLine() + ".shde";
 		}
+		FilePath1 = "Data\\" + FilePath1;
 		File AllKeyFile = new File(FilePath1);
 
 		String Yes = "Y";

@@ -16,7 +16,7 @@ public class AllKey{
 		String Yes = "Y";
 		String No = "N";
 		
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		Scanner FileGuts2 = new Scanner(FF);
@@ -28,9 +28,11 @@ public class AllKey{
 		for(int LineCount = 0;!(WantedLineCount == LineCount);LineCount++){
 				FilePath = FileGuts.nextLine() + ".shde";
 		}
+		FilePath = "Data\\" + FilePath;
 		for(int LineCount1 = 0;!(WantedLineCount1 == LineCount1);LineCount1++){
 				FilePath1 = FileGuts2.nextLine() + ".shde";
 		}
+		FilePath1 = "Data\\" + FilePath;
 		File AllKeyFile = new File(FilePath1);
 		
 		for(;;){

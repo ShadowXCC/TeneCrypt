@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class PasswordCreator {
 	PasswordCreator(){	}
 	public static String Activate() throws IOException{
-		String FP = "Config.shde";
+		String FP = "Data\\\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		
@@ -17,7 +17,7 @@ public class PasswordCreator {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			PassFilePath = FileGuts.nextLine() + ".shde";
 		}
-		
+		PassFilePath = "Data\\" + PassFilePath;
 		File PassFile = new File(PassFilePath);
 		if(!PassFile.exists()){
 			FileWriter fw = new FileWriter(PassFile);

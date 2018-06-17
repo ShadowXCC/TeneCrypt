@@ -13,7 +13,7 @@ public class KeyReader {
 		Scanner input = new Scanner(System.in);
 		String FinalKey = null;
 
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts1 = new Scanner(FF);
 		
@@ -22,6 +22,7 @@ public class KeyReader {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			FileName = FileGuts1.nextLine() + ".shde";
 		}
+		FileName = "Data\\" + FileName;
 		File AllKeyFile = new File(FileName);
 
 		boolean DoesItExist = new File(FileName).isFile();
@@ -95,6 +96,7 @@ public class KeyReader {
 				for(int LineCount = 0;!(WantedLineCount1==LineCount);LineCount++){
 					FileName1 = FileGuts3.nextLine() + ".shde";
 				}
+				FileName1 = "Data\\" + FileName1;
 				FileGuts3.close();
 				FileWriter fw = new FileWriter(FileName1);
 				PrintWriter output = new PrintWriter(fw);

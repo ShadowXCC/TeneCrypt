@@ -9,7 +9,7 @@ public class PasswordCreatorChanger{
 	PasswordCreatorChanger(){	}
 	
 	public static String Activate() throws IOException{
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		
@@ -18,6 +18,7 @@ public class PasswordCreatorChanger{
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			PassFilePath = FileGuts.nextLine() + ".shde";
 		}
+		PassFilePath = "Data\\" + PassFilePath;
 		
 		File PassFile = new File(PassFilePath);
 		FileWriter fw = new FileWriter(PassFile);

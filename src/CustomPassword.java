@@ -11,7 +11,7 @@ public class CustomPassword {
 		String Activator;
 		Scanner input = new Scanner(System.in);
 		
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		
@@ -20,9 +20,9 @@ public class CustomPassword {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			PassFilePath = FileGuts.nextLine() + ".shde";
 		}
+		PassFilePath = "Data\\" + PassFilePath;
 		Scanner sf1 = new Scanner(new File(PassFilePath));
 		String PastPass = sf1.nextLine();
-		
 		
 		String Current = null;
 		String DCP = "1";

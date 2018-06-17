@@ -9,7 +9,7 @@ public class PasswordChecker {
 		String InputPass = "";
 		@SuppressWarnings("resource")
 		Scanner input = new Scanner(System.in);
-		String FP = "Config.shde";
+		String FP = "Data\\Config.shde";
 		File FF = new File(FP);
 		Scanner FileGuts = new Scanner(FF);
 		
@@ -18,6 +18,7 @@ public class PasswordChecker {
 		for(int LineCount = 0;!(WantedLineCount==LineCount);LineCount++){
 			PassFilePath = FileGuts.nextLine() + ".shde";
 		}
+		PassFilePath = "Data\\"+ PassFilePath;
 		Scanner sf1 = new Scanner(new File(PassFilePath));
 		String Pass = sf1.nextLine();
 		
