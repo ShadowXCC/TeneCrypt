@@ -1,0 +1,12 @@
+Secret number is based off of relationship between the angles the minute and hour hand make on a clock, with a defined 0/start value
+  (any position on the clock to make it harder) 
+
+
+
+Test Time: 3:01 (http://www.visnos.com/demos/clock)
+
+Minute * 6 = Degrees of the minute hand past 0
+Minute / 60 = Percentage of how far the hour hand should be past its spot(HRP%)
+HRP% * 360 = Degrees hour hand is past its spot
+
+Hour Hand Spot * 30 = Hour hand spot degrees

@@ -1,0 +1,37 @@
+Cryptography : A Basic Introduction of Hashing and HashAlgo class for beginners – Part 1
+https://raviranjankr.wordpress.com/2012/10/20/cryptography-a-basic-introduction-of-hashing-and-hashalgo-class-for-beginners-part-1/ NOW IN PDF
+https://raviranjankr.wordpress.com/2012/10/25/cryptography-a-basic-introduction-of-hashing-and-hashalgo-class-for-beginners-part-2/ NOW IN PDF
+- Good basic information
+- Has Java Code examples for using hash functions, and verifying them
+- Has download for source code
+- Very bad English, but readable
+
+An Introduction to Cryptographic Hash Functions
+http://www.dev-hq.net/posts/4--intro-to-cryptographic-hash-functions
+- Good basic info
+
+Introduction to Basic Cryptography: Hashing
+https://www.youtube.com/watch?v=2Cg2So2js5k
+- 20:33 long video
+
+Cryptography Hash functions
+https://www.tutorialspoint.com/cryptography/cryptography_hash_functions.htm
+- Good basic info
+- Good graphics showing process
+
+Introduction to Computer Security: Hash Functions and Digital Signatures
+http://www.ra.cs.uni-tuebingen.de/lehre/ss11/introsec/04-hash.pdf
+-PDF Presentation of hashing
+
+Introduction to Cryptography
+https://www.cs.purdue.edu/homes/ninghui/courses/Fall05/lectures/355_Fall05_lect27.pdf
+-PDF Presentation of hashing
+-Good basic info
+-Good graphics of process
+
+SHA-1
+https://en.wikipedia.org/wiki/SHA-1#Examples_and_pseudocode
+-Lots of info
+-Pseudo Code
+-Good Graphics
+-Good links to other resources

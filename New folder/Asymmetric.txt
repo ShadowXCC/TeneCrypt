@@ -1,0 +1,21 @@
+https://crypto.stackexchange.com/questions/292/how-does-asymmetric-encryption-work
+
+- Good info
+
+
+
+http://etutorials.org/Programming/Programming+.net+security/Part+III+.NET+Cryptography/Chapter+15.+Asymmetric+Encryption/15.1+Asymmetric+Encryption+Explained/
+
+- Good Info
+
+
+
+https://www.youtube.com/watch?v=E5FEqGYLL0o
+
+-Video 4:40
+
+
+
+https://www.youtube.com/watch?v=AQDCe585Lnc&vl=en
+
+-Video 3:18

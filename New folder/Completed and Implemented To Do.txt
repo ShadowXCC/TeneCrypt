@@ -1,0 +1,6 @@
+COMPLETED AND IMPLEMENTED:
+Remove the Mains:
+- I did not need to pass in anything
+- Return some bullshit(for now it is just an empty character)
+- Completely separate Setup from Worker (do away with MMAR)
+- A check for seeing if the program has already been created
