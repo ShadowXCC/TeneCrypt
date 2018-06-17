@@ -1,4 +1,4 @@
-1 - SBOWorkspace EBrnyqDE1dHkYlTKjILXMKPHTi9S8O0tazXc8uLCpzYKHvLryd8lt4oJJjtL9rqAj3Yhuh0IHrY.shde
+1 - Base		 EBrnyqDE1dHkYlTKjILXMKPHTi9S8O0tazXc8uLCpzYKHvLryd8lt4oJJjtL9rqAj3Yhuh0IHrY.shde
 2 - IsAuthed     fwjUcn1bmdaA47gIaFTFmAiUIcwkrRWZ2QQTplTqipVplzFjcvhxHbyZcUwGoPVTbBlNCplLkDf.shde
 3 - Password     DikMeff7nS3lNLPTs2kv5X4EXFX0ZUZuIAXOgzpLf0J50Z945aiq9AbCvGNc0NkeofICbaSBdNC.shde
 4 - KeyPull      ybzymIanQw93r68KAxGb8AHaDkgoSh2p03NfATkecIXohezMqpN5uEH9GLRyOsowl4WY4Y94rKA.shde
@@ -6,4 +6,4 @@
 6 - PubKeyFile   dDL1uDtzkwTvZLho3n9DdnhTw32HuwNXEBobxpTEi4NlmvK28iZXO0kEFRcGO17GFlxSCi1HGo6.shde
 7 - PriKeyFile   Fy8WFGGfCNbCaNOjKVpgdICeGbbsbuDtwuIquaZdmcN499oEWDi1TLm95HjfGU01nBfO7Gh3Blz.shde
 
-Allkey, IsAuthed, KeyPull, Password, PriKeyFile, PubKeyFile, SBOWorkspace
+Allkey, IsAuthed, KeyPull, Password, PriKeyFile, PubKeyFile, Base
