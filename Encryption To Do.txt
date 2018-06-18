@@ -38,6 +38,7 @@ IDEAS: Sub level keys to encrypt that when combined form the total key OR Blockc
 - Have it so the message contains a key at the beginning, some token to break the message up, then the encrypted message
 
 Big Overall Tasks:
+- Look into and decide on changing Scanners into BufferedReaders
 - Increase supported characters for all files (SBO, PasswordCreator)
 - Create character libraries/databases, so that I just need to import a specific library/database based off of selected language
 
