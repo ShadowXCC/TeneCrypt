@@ -5,7 +5,6 @@ Random Number Generation Function
 + Loop 1024 times((RandomNumber(1-99) * ClockRelationshipValue)*2) and convert to hex
 
 Hardcore Mode:
-
 + A class that asks the user if they want hardcore mode, and if they say yes it prompts them to provide their own secret number or other personally selected information to
   base the encryption off of
 + Make sure to not may it look like this is required, but actually as an alternative for the security worried people to make it so the encryption is there own
