@@ -33,7 +33,7 @@ public class PPKeyCreator {
 		FileWriter fw = new FileWriter(PublicFile);
 		PrintWriter output = new PrintWriter(fw);
 		
-		for(int a = 0 ; a <= PubLength ; a++){
+		for(int a = 1; a <= PubLength; a++){
 			int g = Generator.nextInt(62);
 			if(g == 00){
 				output.print("A");
@@ -228,7 +228,7 @@ public class PPKeyCreator {
 		SecureRandom Generator1 = new SecureRandom();
 		FileWriter fw1 = new FileWriter(PrivateFileName);
 		PrintWriter output1 = new PrintWriter(fw1);
-		for(int b = 0 ; b <= PriLength ; b++){
+		for(int b = 1; b <= PriLength; b++){
 			int g = Generator1.nextInt(62);
 			if(g == 00){
 				output1.print("A");
