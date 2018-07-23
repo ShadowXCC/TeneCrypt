@@ -29,7 +29,7 @@ AllKey
 Group Messaging:
 IDEAS: Sub level keys to encrypt that when combined form the total key OR Blockchain type of thing, but host the chain locally on all machines, and update it with message sendings,
        with the intention of verifying who sent the message after the fact
-+ Have destructing messages that disappear on the individual who reads itâ€™s computer
++ Have destructing messages that disappear on the individual who reads it’s computer
 - Add a new selection in Worker.class entitled group messaging or something
 - Prompt user for number of people
 + How to distribute the keys?
