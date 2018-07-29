@@ -38,12 +38,9 @@ public class PasswordChecker {
 				System.out.println("Program Terminated");
 				System.exit(0);
 			}
-			if(InputPass.equals(Pass) || InputPass.equals("lnkZlJuH3AMGgcYpuVhQjz7JsSpWPauAorOi0fhUK7gINqmM15VyAA7f3IyUkCixwsB3hOXkfDovWY4UkpWErNLiomGLyVN6G6jgr0X8ClGqMIvNztRxzkonyuXEJfZmNCb411L3V0WmJAVlIjmXQVP5UBjtUmD7IkQ7ebRHYOFB1A7CwzM2nboMbaodLqYLHeWIct9jHgE6O6nC9gADisWh813guDertEGsTFMAKd4xW1sXyMQ5qgzmfKqxGayS2Prs9lZ6GsHR44bdzJzPeU54OO42b3LaeBrxKrLZTsdfDfkM4ZKPCd0YSNVRog5lTM8TJi019Nis8gJW1MUplz9fGtPMgyXZKmWNrEX1oHSuBA2riId3C7tOE2jbfhkWSV5n4BrBYfE9jeBtrjoDLvKdIMUldxV9GZa5O7E68WpsysDAyv5F9EGsDaBxvYdPXpH96ssqrcvXAvXIPkzxjRj09ula4DKiaGSS7V7EB9TB31DcVnMU")){
+			if(InputPass.equals(Pass)){
 				break;
 			}
-		}
-		if(InputPass.equals("lnkZlJuH3AMGgcYpuVhQjz7JsSpWPauAorOi0fhUK7gINqmM15VyAA7f3IyUkCixwsB3hOXkfDovWY4UkpWErNLiomGLyVN6G6jgr0X8ClGqMIvNztRxzkonyuXEJfZmNCb411L3V0WmJAVlIjmXQVP5UBjtUmD7IkQ7ebRHYOFB1A7CwzM2nboMbaodLqYLHeWIct9jHgE6O6nC9gADisWh813guDertEGsTFMAKd4xW1sXyMQ5qgzmfKqxGayS2Prs9lZ6GsHR44bdzJzPeU54OO42b3LaeBrxKrLZTsdfDfkM4ZKPCd0YSNVRog5lTM8TJi019Nis8gJW1MUplz9fGtPMgyXZKmWNrEX1oHSuBA2riId3C7tOE2jbfhkWSV5n4BrBYfE9jeBtrjoDLvKdIMUldxV9GZa5O7E68WpsysDAyv5F9EGsDaBxvYdPXpH96ssqrcvXAvXIPkzxjRj09ula4DKiaGSS7V7EB9TB31DcVnMU")){
-			new File (PassFilePath).delete();
 		}
 		if(InputPass.equals(Pass)){	}
 		else{
