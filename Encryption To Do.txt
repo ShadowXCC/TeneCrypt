@@ -1,3 +1,6 @@
+Function Ideas:
+- A forget password function
+
 Random Number Generation Function
 + A class that is solely responsible for creating and returning a strong random number
 - Utilize secure random function that is already being used
