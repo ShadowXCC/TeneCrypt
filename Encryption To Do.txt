@@ -50,6 +50,7 @@ Current Unresolved Issues:
 Tasks to do before completion
 - Search for errors in the program and fix them
 - Check if all files are being created
+- Distress Password
 
 Final Things:
 - Make sure all non-crucial classes and etc. are deleted/temporarily removed from final project
