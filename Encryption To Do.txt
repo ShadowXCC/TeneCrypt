@@ -1,11 +1,9 @@
 Function Ideas:
 - A forget password function
 
-Random Number Generation Function
-+ A class that is solely responsible for creating and returning a strong random number
-- Utilize secure random function that is already being used
-- Utilize clock relationships with ^ so that any value
-+ Loop 1024 times((RandomNumber(1-99) * ClockRelationshipValue)*2) and convert to hex
+Distress Password:
+- A password that can be defined by the user, or randomly, that when entered wipes the program and displays fake info
+- Fake names and fake keys
 
 Hardcore Mode:
 + A class that asks the user if they want hardcore mode, and if they say yes it prompts them to provide their own secret number or other personally selected information to
@@ -14,10 +12,6 @@ Hardcore Mode:
 + Make sure the user cannot make it more breakable or apparently different from regular communications
 + Allow exporting of settings
 + Put this at the end of Setup, but also allow it to be accessible from the main menu/worker
-
-Bullshit Cleaning:
-- Change bullshit into some form of token to validate the process
-- IF password is wrong, return some error code that breaks the process as a whole, ELSE respond normally
 
 Password File
 - Set minimal limits on custom passwords
@@ -33,14 +27,11 @@ Group Messaging:
 IDEAS: Sub level keys to encrypt that when combined form the total key OR Blockchain type of thing, but host the chain locally on all machines, and update it with message sendings,
        with the intention of verifying who sent the message after the fact
 + Have destructing messages that disappear on the individual who reads it’s computer
-- Add a new selection in Worker.class entitled group messaging or something
-- Prompt user for number of people
 + How to distribute the keys?
 - Based off of number of people, generate shortish keys that everyone in combination needs to actually decrypt anything(DHKE)
 - Have it so the message contains a key at the beginning, some token to break the message up, then the encrypted message
 
 Big Overall Tasks:
-- Look into and decide on changing Scanners into BufferedReaders
 - Increase supported characters for all files (SBO, PasswordCreator)
 - Create character libraries/databases, so that I just need to import a specific library/database based off of selected language
 
@@ -50,13 +41,7 @@ Current Unresolved Issues:
 Tasks to do before completion
 - Search for errors in the program and fix them
 - Check if all files are being created
-- Distress Password
 
 Final Things:
-- Make sure all non-crucial classes and etc. are deleted/temporarily removed from final project
 - Change file paths to put the files into a place (based on OS?, detect viable places?, prompt for place?) rather than just in the place that the .jar is
 - Make a second project, and minimize(remove all non-needed characters) all the code (This will be the production version)
-
-COMPLETED BUT NOT IMPLEMENTED:
-- 14 new characters have been coded, but not added yet (need to add them to both PasswordCreator and SBO)
-- Basic key generation
