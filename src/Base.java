@@ -672,7 +672,7 @@ public class Base {
 						output.print(CapJNum1);
 					}
 					if(character.equals(K)){
-						output.print(CapJNum1);
+						output.print(CapKNum1);
 					}
 					if(character.equals(L)){
 						output.print(CapLNum1);
