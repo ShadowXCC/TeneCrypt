@@ -38,7 +38,7 @@ public class Base {
 		String DKeyLower = "d";
 		String MainMenuKey = "X";
 		String ToEncrypt = "";
-		int Second = cal.get(Calendar.SECOND) + 1;
+		int Second = cal.get(Calendar.SECOND) + 10;
 		BigInteger SecondNum = new BigInteger(Integer.toString(Second));
 		
 		String A = "A";
